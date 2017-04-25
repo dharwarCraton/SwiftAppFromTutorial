@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
         
+        // to count number of times the button was tapped. Create this inside the connect action func.
         if tapCount >= 10 {
             
             topLabel.text = "You tapped PUSH ME 10 or more times"
